@@ -748,40 +748,6 @@ div.control-group .shortcut-recorder input[type=text]{
     border: none;
 }
 
-.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn{
-    display:none;
-}
-
-.theme-dark .messages-wrapper .messages .message-group-blocked{
-    border: none;
-    background: none;
-}
-
-div.message-group-blocked{
-    display: none;
-    border: none;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.message-group.has-divider{
-    border-bottom: 1px solid hsla(0,0%,100%,.04);
-}
-
-.theme-dark .messages-wrapper .messages .divider:before{
-    display: none;
-}
-
-.divider+.message-group-blocked,
-.empty-message+.message-group-blocked{
-    margin: 0;
-    display: none;
-}
-
-.message-group-blocked+.divider{
-    display: none;
-}
-
 #friends,
 .friends-table,
 .guild-channels,
